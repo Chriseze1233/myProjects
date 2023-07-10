@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice-code</title>
+    <link rel="stylesheet" href="./css/style.css">
+<script src="https://kit.fontawesome.com/0bbc730747.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="./css/styles.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.css" />
+		<script src="https://cdn.jsdelivr.net/npm/leaflet@1.7.1/dist/leaflet.js"></script>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="header pos-abs full-width leto flex al-cnt js-btw trans">
+        <a href="#" class="logo">
+            <img src="./images/logo.png" alt="">
+            <span>ice</span>
+        </a>
+        <nav>
+            <div class="navBar pos-rel">
+                <div class="navClick full-width pos-abs leto"></div>
+                <i class="fas fa-bars nav-icon"></i>
+            </div>
+            <ul class="nav flex gap trans">
+                <li><a href="#" class="active navLink">home</a></li>
+                <li><a href="#services" class="navLink">Services</a></li>
+                <li><a href="#about" class="navLink">about</a></li>
+                <li><a href="#projects" class="navLink">projects</a></li>
+                <li><a href="#contact" class="navLink">contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- MAin Section -->
+    <!-- Hero Section -->
+    <main class="main">
+        <section class="hero full-width minHeight flex al-cnt js-cnt sec" id="top">
+            <div class="hero-cont grid-two grid al-cnt gap">
+                <div class="hero-text trans opacity-anim anim-hor-2">
+                    <h2 class="heroTitile">Hi i am <br><span>ice</span></h2>
+                    <div class="btn-hero-cont pos-rel hor-cnt flex gap">
+                        <button class="btn trans">X-plore</button>
+                        <button class="btn trans">Hire Me</button>
+                    </div>
+                </div>
+                <div class="img-hero-cont">
+                    <div class="img-cont pos-rel">
+                        <img src="./images/hro.png" alt="" class="pos-rel img-hero scale opacity-anim">
+                    </div>
+                </div>
+            </div>
+        </section>  
+        <!-- Services Section -->
+        <section class="services sec" id="services">
+            <h3 class="title-section pos-rel pos-hor">Services</h3>
+            <div class="grid grid-many section-cont section">
+                <div class="cards brr service-card pos-rel trans opacity-anim anim-var">
+                    <h3 class="title-sub">Web Development</h3>
+                    <p class="text-card services-texts trans">
+                        Our web development services encompass the creation of dynamic and interactive websites. From front-end development using HTML, CSS, and JavaScript to back-end development with frameworks like Node.js and Django, we deliver tailor-made solutions that meet your specific requirements.
+                    </p>
+                </div>
+                <div class="cards brr service-card pos-rel trans opacity-anim anim-var">
+                    <h3 class="title-sub">Mobile App Development</h3>
+                    <p class="text-card services-texts trans">
+                        We excel in building mobile applications for various platforms, including iOS and Android. Our skilled developers leverage technologies like React Native and Flutter to create high-performance, user-friendly, and visually appealing mobile apps that drive engagement and deliver a seamless user experience.
+                    </p>
+                </div>
+                <div class="cards brr service-card pos-rel trans opacity-anim anim-var">
+                    <h3 class="title-sub">UI/UX Design</h3>
+                    <p class="text-card services-texts trans">
+                        Good design is at the core of effective digital experiences. Our UI/UX design services focus on creating intuitive interfaces and captivating user experiences. We conduct user research, develop wireframes and prototypes, and refine designs to ensure your website or app is visually appealing, user-friendly, and aligns with your brand identity.
+                    </p>
+                </div>
+                <div class="cards brr service-card pos-rel trans opacity-anim anim-var">
+                    <h3 class="title-sub">E-commerce Solutions</h3>
+                    <p class="text-card services-texts trans">
+                        We provide end-to-end e-commerce solutions to help businesses establish and grow their online presence. From setting up secure payment gateways to implementing user-friendly product catalogs and shopping carts, we empower businesses to sell their products and services online effectively.
+                    </p>
+                </div>
+            </div>
+        </section>
+    
+        <section class="about pos-rel sec" id="about">
+            <h3 class="title-section pos-rel pos-hor">About</h3>
+            <article class="aboutCont grid grid-two section al-cnt gap">
+                <div class="aboutText trans opacity-anim anim-hor-2">
+                    <h3 class="title-sub">About uS</h3>
+                    <p class="text-card aboutCard">
+                        At ICE-CODE, we are a team of passionate coders and technology enthusiasts dedicated to turning ideas into reality. With expertise in a wide range of coding languages, frameworks, and platforms, we specialize in delivering cutting-edge solutions that elevate your online presence.
+                    </p>
+                    <p class="text-card aboutCard">
+                        Our mission is to empower individuals and businesses by harnessing the power of coding and technology. We believe that through innovative and scalable solutions, we can help our clients achieve their goals, streamline processes, and drive growth.
+                    </p>
+                    <p class="text-card aboutCard">
+                        With a client-centric approach, we prioritize communication, collaboration, and understanding your unique needs. We work closely with you to define project requirements, offer guidance, and ensure that the final product exceeds your expectations.
+                    </p>
+                    <p class="text-card aboutCard">
+                        At ICE-CODE, we stay up to date with the latest industry trends and best practices. Our continuous learning mindset allows us to deliver solutions that are modern, efficient, and future-proof.
+                    </p>
+                    <p class="text-card aboutCard">
+                        We are not just developers; we are partners in your success. Let us bring your ideas to life and showcase your expertise to the world.
+                    </p>
+                    <p class="text-card aboutCard">
+                        Feel free to customize the text according to your specific services, values, and brand identity.
+                    </p>
+                </div>
+                <div class="aboutImg">
+                    <img src="./images/abt.png" alt="" class="img-side opacity-anim anim-hor trans">
+                </div>
+            </article>
+        </section>
+    
+        <!-- Project Section -->
+        <section class="projects sec" id="projects">
+            <h3 class="title-section pos-rel pos-hor">Projects</h3>
+            <div class="project-cont grid grid-many section">
+                <div class="cards projects-card pos-rel trans opacity-anim anim-hor-2">
+                    <div class="img-projcts-cont">
+                        <img src="./images/hack.png" alt="" class="img-cards-projects">
+                    </div>
+                    <div class="project-txts pos-abs var-cnt trans">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, tempora ipsa! Fugit, veniam quas fugiat obcaecati consequatur quibusdam id ea aut, praesentium alias assumenda commodi ad saepe. Fuga, repudiandae asperiores?
+                    </div>
+                </div>
+                <div class="cards projects-card pos-rel trans opacity-anim anim-hor-2">
+                    <div class="img-projcts-cont">
+                        <img src="./images/hack1.png" alt="" class="img-cards-projects">
+                    </div>
+                    <div class="project-txts pos-abs var-cnt trans">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, tempora ipsa! Fugit, veniam quas fugiat obcaecati consequatur quibusdam id ea aut, praesentium alias assumenda commodi ad saepe. Fuga, repudiandae asperiores?
+                    </div>
+                </div>
+                <div class="cards projects-card pos-rel trans opacity-anim anim-hor">
+                    <div class="img-projcts-cont">
+                        <img src="./images/hack3.png" alt="" class="img-cards-projects">
+                    </div>
+                    <div class="project-txts pos-abs var-cnt trans opacity-anim anim-hor">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, tempora ipsa! Fugit, veniam quas fugiat obcaecati consequatur quibusdam id ea aut, praesentium alias assumenda commodi ad saepe. Fuga, repudiandae asperiores?
+                    </div>
+                </div>
+                <div class="cards projects-card pos-rel trans opacity-anim anim-hor">
+                    <div class="img-projcts-cont">
+                        <img src="./images/hack4.png" alt="" class="img-cards-projects">
+                    </div>
+                    <div class="project-txts pos-abs var-cnt trans">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Debitis, tempora ipsa! Fugit, veniam quas fugiat obcaecati consequatur quibusdam id ea aut, praesentium alias assumenda commodi ad saepe. Fuga, repudiandae asperiores?
+                    </div>
+                </div>
+            </div>
+    
+        </section>
+        <!-- Contact Section -->
+        <section class="contact sec" id="contact">
+            <h3 class="title-section pos-rel pos-hor">Contact</h3>
+            <article class="grid grid-two al-cnt gap section">
+                <div class="frm-cont">
+                    <h2 class="frm-title">Fill Up The Input Fields</h2>
+                    <form action="">
+                        <input type="text" name="name" id="" class="inp brr trans opacity-anim anim-hor-2" placeholder="Name here...">
+                        <input type="email" name="email" id="" class="inp brr trans opacity-anim anim-hor-2"  placeholder="Email here...">
+                        <input type="tel" name="tel" id="" class="inp brr trans opacity-anim anim-hor-2" placeholder="Phone No. here...">
+                        <textarea name="" id="" cols="30" rows="10" class="inp brr trans opacity-anim anim-hor-2" placeholder="Message here..."></textarea>
+                        <button class="btn trans pos-rel">Submit</button>
+                    </form>
+                </div>
+                <div class="mapCont brr">
+                    <div id="map" class="full-width full-height"></div>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-cont section grid grid-many gap">
+            <ul class="footerLinksCont opacity-anim anim-hor-2 trans">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="">
+                    <span>ice</span>
+                </a>
+                <p class="para">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos eveniet dolorem, incidunt quia totam quae tempore voluptates voluptate inventore fuga, harum alias quisquam assumenda enim quas possimus, temporibus placeat vel?</p>
+            </ul>
+            <ul class="footerLinksCont opacity-anim anim-var trans">
+                <h3 class="foot-title pos-rel">Quick Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="footerLinksCont opacity-anim anim-var trans">
+                <h3 class="foot-title pos-rel">Project Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <ul class="footerLinksCont opacity-anim anim-var trans">
+                <h3 class="foot-title pos-rel">Social Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+        <div class="footer-bottom pos-rel full-width flex js-btw">
+            <h4 class="right">&copy; Copyright <a href="https://ice-code.netlify.app">ICE</a> <span class="date"></span>.</h4>
+            <h4 class="right">All Rights Reserved</h4>
+        </div>
+    </footer>
+    <!-- Scroll back to top -->
+    <a href="#top" class="scrollbacktop pos-fixed brr trans">
+        <i class="fas fa-chevron-up"></i>
+    </a>
+    <!-- JS -->
+    <script src="./js/anim.js"></script>
+    <script src="./js/all.js"></script>
+    <script src="./js/app.js"></script>
+<script>
+    var map = L.map('map').setView([0, 0], 13);
+
+    // Add the tile layer
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors',
+        maxZoom: 18,
+    }).addTo(map);
+
+    // Get the user's location
+    if ('geolocation' in navigator) {
+        navigator.geolocation.getCurrentPosition(function(position) {
+            var latitude = position.coords.latitude;
+            var longitude = position.coords.longitude;
+
+            // Update the map view to the user's location
+            map.setView([latitude, longitude], 13);
+        console.log(latitude, longitude)
+            // Add a marker to the user's location
+            L.marker([latitude, longitude]).addTo(map)
+                .bindPopup('You are here')
+                .openPopup();
+        }, function(error) {
+            console.log('Error getting user location:', error);
+
+            // Use a default location (e.g., New York City)
+            var defaultLatitude = 40.7128;
+            var defaultLongitude = -74.0060;
+
+            // Update the map view to the default location
+            map.setView([defaultLatitude, defaultLongitude], 13);
+
+            // Add a marker to the default location
+            L.marker([defaultLatitude, defaultLongitude]).addTo(map)
+                .bindPopup('Default Location')
+                .openPopup();
+        });
+    } else {
+        console.log('Geolocation is not supported by your browser');
+
+        // Use a default location (e.g., New York City)
+        var defaultLatitude = 40.7128;
+        var defaultLongitude = -74.0060;
+
+        // Update the map view to the default location
+        map.setView([defaultLatitude, defaultLongitude], 13);
+
+        // Add a marker to the default location
+        L.marker([defaultLatitude, defaultLongitude]).addTo(map)
+            .bindPopup('Default Location')
+            .openPopup();
+    }
+</script>
+</body>
+</html>

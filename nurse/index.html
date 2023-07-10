@@ -1,0 +1,712 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ice-nurse</title>
+<script src="https://kit.fontawesome.com/0bbc730747.js" crossorigin="anonymous"> </script>
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/styles.css">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+    </style>
+</head>
+<body>
+    <header class="header pos-rel leto full-width trans">
+        <div class="header-small flex js-btw al-cnt leto">
+            <a href="#" class="logo">
+                <img src="./images/logo.png" alt="">
+            </a>
+            <div class="navBar pos-rel">
+                <i class="fas fa-bars"></i>
+                <div class="navClick full-width full-height pos-abs"></div>
+            </div>
+        </div>
+        <div class="header-wrap">
+        <!-- top header layer -->
+            <div class="top-layer flex js-btw al-cnt">
+                <div class="social-container flex gap">
+                    <a href="" class="social-icon-header trans brr-rd flex al-cnt js-cnt">
+                        <span>
+                            <i class="fab fa-facebook"></i>
+                        </span>
+                    </a>
+                    <a href="" class="social-icon-header trans brr-rd flex al-cnt js-cnt">
+                        <span>
+                            <i class="fab fa-twitter"></i>
+                        </span>
+                    </a>
+                    <a href="" class="social-icon-header trans brr-rd flex al-cnt js-cnt">
+                        <span>
+                            <i class="fab fa-instagram"></i>
+                        </span>
+                    </a>
+                    <a href="" class="social-icon-header trans brr-rd flex al-cnt js-cnt">
+                        <span>
+                            <i class="fab fa-youtube"></i>
+                        </span>
+                    </a>
+                </div>
+                <div class="date-time flex">
+                    <div class="time-cont flex al-cnt">
+                        <span class="time"></span><span class="colo">:</span>
+                        <span class="time"></span><span class="colo">:</span>
+                        <span class="time"></span><span class="ampm"></span>
+                    </div>
+                    <div class="line-dm brr pos-rel"></div>
+                    <div class="date">
+                        <div class="day-cont">
+                            <span class="day"></span>
+                            <span class="day"></span>,
+                            <span class="day"></span>
+                            <span class="day"></span>
+                        </div>
+                    </div>
+                </div>
+                <div class="phone-contact">
+                    <span>
+                        <i class="fas fa-phone"></i>
+                        +123-456-7890
+                    </span>
+                </div>
+            </div>
+    
+            <div class="bottom-layer flex js-btw al-cnt">
+                <a href="#" class="logo">
+                    <img src="./images/logo.png" alt="">
+                </a>
+                <nav>
+                    <ul class="nav flex">
+                        <li><a href="#" class="active pos-rel trans link">Home</a></li>
+                        <li class="pos-rel"><a class="ps-rel trans aboutLink link">About</a>
+                         <!-- <ul class="navSecond flex fl-cl pos-abs leto trans">
+                            <li><a href="#about" class="lnk multi-nav-link">About Us</a></li>
+                            <li><a href="#story" class="lnk multi-nav-link">Our Story</a></li>
+                            <li><a href="#team" class="lnk multi-nav-link">Team</a></li>
+                          </ul>-->
+                        </li>
+                        <li><a href="#" class="pos-rel trans link">Services</a></li>
+                        <li><a href="#" class="pos-rel trans link">Testimonials</a></li>
+                        <li><a href="#" class="pos-rel trans link">Events</a></li>
+                        <li><a href="#" class="pos-rel trans link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Layers -->
+    <main class="main">
+        <!-- Hero Scetion -->
+        <section class="hero minHeight full-width pos-rel linked">
+            <div class="hero-img pos-abs full-width full-height leto">
+                <img src="./images/slide1.jpg" alt="" class="full-width full-height img-hero trans active">
+                <img src="./images/slide2.jpg" alt="" class="full-width full-height img-hero trans">
+                <img src="./images/slide3.jpg" alt="" class="full-width full-height img-hero trans">
+                <img src="./images/slide4.jpg" alt="" class="full-width full-height img-hero trans">
+            </div>
+            <div class="cover-hero full-width full-height pos-abs"></div>
+
+            <div class="hero-cont pos-abs full-height full-width flex al-cnt">
+                <div class="hero-texts">
+                    <p class="hero-para">Healing With Heart <i class="fas fa-heart icon-heart"></i></p>
+                    <h2 class="hero-title">
+                        Empowering <br /><span>Nurses</span> to provide<br /> Exceptional care
+                    </h2>
+                    <div class="btn-hero-cont flex gap fl-fl btn-cont">
+                        <button class="btn">Learn More</button>
+                        <button class="btn">Download Nursing Brochure</button>
+                    </div>
+                </div>
+            </div>
+            <div class="bttom-arrow hor-cnt pos-abs brr-rd flex js-cnt al-cnt">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about section pos-rel linked" id="about">
+            <div class="pos-abs traingle traingle-1"></div>
+            <h4 class="section-title pos-rel hor-cnt">Who we are<span>?</span></h4>
+            <article class="simple-about grid grid-two al-cnt gap">
+                <div class="first-text-about opacity-anim trans anim-var">
+                    <h4 class="sub-section-title">What you need to know about Us</h4>
+                    <p class="para">Ice-Health is a top-tier healthcare provider that is dedicated to providing exceptional care to patients in need.</p>
+                    <p class="para">Our team of highly trained and experienced professionals is committed to delivering personalized care that meets the unique needs of each patient.</p>
+                    <div class="info-data-cont flex al-cnt gap">
+                        <div class="cards-info-data cards brr trans opacity-anim anim-hor-2">
+                            <h3 class="data-info"><span>200</span>K</h3>
+                            <p class="info-title">Visitors</p>
+                        </div>
+                        <div class="cards-info-data cards brr trans opacity-anim anim-hor-2">
+                            <h3 class="data-info"><span>20</span>K</h3>
+                            <p class="info-title">New</p>
+                        </div>
+                        <div class="cards-info-data cards brr trans opacity-anim anim-hor">
+                            <h3 class="data-info"><span>120</span>K</h3>
+                            <p class="info-title">Minors</p>
+                        </div>
+                        <div class="cards-info-data cards brr trans opacity-anim anim-hor">
+                            <h3 class="data-info"><span>290</span>K</h3>
+                            <p class="info-title">Main</p>
+                        </div>
+                    </div>
+                    <button class="btn">See more</button>
+                </div>
+                <div class="first-img-about">
+                    <img src="./images/about.jpg" alt="" class="img-side brr trans opacity-anim scale">
+                </div>
+            </article>
+            <article class="story-about grid grid-two gap al-cnt lined">
+                <div class="story-img-about">
+                    <img src="./images/story.jpg" alt="" class="img-side brr trans opacity-anim scale">
+                </div>
+                <div class="story-cont grid-start trans opacity-anim anim-var">
+                    <h4 class="sub-section-title">More on about Us</h4>
+                    <div class="btn-about-cont btn-cont flex gap fl-fl">
+                        <button class="btn btn-story active">History</button>
+                        <button class="btn btn-story">Mission</button>
+                        <button class="btn btn-story">Vision</button>
+                        <button class="btn btn-story">Acheievments</button>
+                    </div>
+                    <div class="text-content">
+                        <div class="story-txt active">
+                            <p class="para">Ice-Health was founded in 2005 by a group of passionate healthcare professionals with the goal of providing high-quality care to patients in need. </p>
+                            <p class="para">Over the years, we have grown and expanded our services to meet the evolving needs of the community.</p>
+                         </div>
+                        <div class="story-txt">
+                            <p class="para">Our mission at Ice-Health is to provide exceptional care to our patients while maintaining a commitment to the highest standards of professionalism and ethics. </p>
+                            <p class="para">We strive to create a caring and supportive environment where patients feel comfortable and confident in the care they receive.</p>
+                        </div>
+                        <div class="story-txt">
+                            <p class="para">Our vision at Ice-Health is to be the leading healthcare provider in our region, known for our exceptional quality of care, commitment to patient satisfaction, and innovative approach to healthcare.</p>
+                        </div>
+                        <div class="story-txt">
+                            <p class="para"><i class="fas fa-award icon-award"></i> Ice-Health has been recognized as a top healthcare provider in our region for five consecutive years.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> Our team has been recognized for excellence in patient care by multiple healthcare organizations.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> We have implemented innovative programs to improve patient outcomes and reduce healthcare costs.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> Ice-Health has been awarded multiple grants for our research and development programs.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> Our team has published numerous articles in leading healthcare journals.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> We have expanded our services to meet the growing needs of the community.</p>
+                            <p class="para"><i class="fas fa-award icon-award"></i> Our patients consistently rate us as providing exceptional care.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+            <article class="team-about lined">
+            <h4 class="section-title pos-rel hor-cnt">Who our Team are<span>?</span></h4>
+                <div class="grid grid-many gap">
+                    
+                    <div class="card-team pos-rel brr trans opacity-anim anim-hor-2">
+                        <div class="pos-abs social-team flex var-cnt trans">
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-reddit"></i>
+                            </span>
+                        </div>
+                        <div class="img-card-about">
+                            <img src="./images/team.jpg" alt="" class="img-team full-width brr">
+                        </div>
+                        <div class="team-text">
+                            <h4 class="title-team">John Doe</h4>
+                            <p class="title-pos">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="card-team pos-rel brr trans opacity-anim anim-hor">
+                        <div class="pos-abs social-team flex var-cnt trans">
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-reddit"></i>
+                            </span>
+                        </div>
+                        <div class="img-card-about">
+                            <img src="./images/team1.jpg" alt="" class="img-team full-width brr">
+                        </div>
+                        <div class="team-text">
+                            <h4 class="title-team">John Doe</h4>
+                            <p class="title-pos">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="card-team pos-rel brr trans opacity-anim anim-hor-2">
+                        <div class="pos-abs social-team flex var-cnt trans">
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-reddit"></i>
+                            </span>
+                        </div>
+                        <div class="img-card-about">
+                            <img src="./images/team2.jpg" alt="" class="img-team full-width brr">
+                        </div>
+                        <div class="team-text">
+                            <h4 class="title-team">John Doe</h4>
+                            <p class="title-pos">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="card-team pos-rel brr trans opacity-anim anim-hor">
+                        <div class="pos-abs social-team flex var-cnt trans">
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-reddit"></i>
+                            </span>
+                        </div>
+                        <div class="img-card-about">
+                            <img src="./images/team3.jpg" alt="" class="img-team full-width brr">
+                        </div>
+                        <div class="team-text">
+                            <h4 class="title-team">John Doe</h4>
+                            <p class="title-pos">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                    <div class="card-team pos-rel brr trans opacity-anim anim-hor-2">
+                        <div class="pos-abs social-team flex var-cnt trans">
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-facebook"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-twitter"></i>
+                            </span>
+                            <span class="icon-team brr-rd flex al-cnt js-cnt">
+                                <i class="fab fa-reddit"></i>
+                            </span>
+                        </div>
+                        <div class="img-card-about">
+                            <img src="./images/team4.jpg" alt="" class="img-team full-width brr">
+                        </div>
+                        <div class="team-text">
+                            <h4 class="title-team">John Doe</h4>
+                            <p class="title-pos">Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+            </article>
+        </section>
+
+        <section class="services section pos-rel linked" id="services">
+            <div class="traingle-2 pos-abs traingle"></div>
+            <h4 class="section-title pos-rel hor-cnt">What we do<span>?</span></h4>
+            <div class="services-cont grid grid-many gap">
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Medical Checkups</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-user-md"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Medication Administration</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-pills"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Wound Dressing</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-band-aid"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Prospective Care</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-procedures"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Rehabilitation</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-wheelchair"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Palliative Care</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-heartbeat"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Health Education</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-graduation-cap"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Home Health Care</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-home"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+                <div class="srvices-card cards brr pos-rel trans opacity-anim anim-var">
+                    <h4 class="card-title">Mental Health Counselling</h4>
+                    <span class="icon-card-service flex js-cnt al-cnt brr-rd">
+                        <i class="fas fa-brain"></i>
+                    </span>
+                    <div class="text-service-card trans">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae perspiciatis a quos suscipit, neque impedit cum et voluptate corrupti modi nobis iste. Ab, similique. Odio iure officiis explicabo veniam dolores.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section testimonial pos-rel linked" id="testimonial">
+            <div class="traingle-3 pos-abs traingle"></div>
+            <h4 class="section-title pos-rel hor-cnt">What People Say we are<span>?</span></h4>
+            <div class="test-cont pos-rel  trans opacity-anim anim-var">
+                <div class="text-wrap flex pos-rel trans">
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/testimonial.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                          <h2 class="test-tile">Mary Lane</h2>
+                          <p class="para">"I was blown away by the care I received at Ice-Health. The staff was so kind and compassionate, and they really went above and beyond to make me feel comfortable."</p>
+                         </div>
+                    </div>
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/testimonial-1.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                          <h2 class="test-tile">Matthew Mitch</h2>
+                          <p class="para">"I have been a patient at Ice-Health for several years now, and I have always been impressed by the level of care I receive. The staff is knowledgeable, attentive, and truly cares about their patients."</p>
+                        </div>
+                    </div>
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/testimonial-2.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                          <h2 class="test-tile">Jane Doe</h2>
+                            <p class="para">"Ice-Health has exceeded my expectations in every way. From the state-of-the-art facilities to the highly trained staff, everything about this healthcare provider is top-notch."</p>
+                        </div>
+                    </div>
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/tstimonial-5.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                          <h2 class="test-tile">Morgan Blue</h2>
+                            <p class="para">"The care I received at Ice-Health was exceptional. The staff was incredibly attentive and made me feel like I was their top priority."</p>
+                         </div>
+                    </div>
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/testimonial.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                            <h2 class="test-tile">Tasha Banks</h2>
+                            <p class="para">"Ice-Health is the best healthcare provider in the region. They truly care about their patients and go above and beyond to provide exceptional care."</p>
+                         </div>
+                    </div>
+                    <div class="text-card">
+                        <div class="pic-text-area pos-rel flex al-cnt js-cnt">
+                            <span class="pos-rel pic-test-wrap brr-rd flex al-cnt js-cnt">
+                                <img src="./images/testimonial-4.jpg" alt="" class="pic-test brr-rd">
+                                <img src="./images/quick-icon.png" alt="" class="test_icon pos-abs"> 
+                            </span>
+                        </div>
+                        <div class="tst-area">
+                            <h2 class="test-tile">Harry Ken</h2>
+                            <p class="para">"I have recommended Ice-Health to several friends and family members, and they have all had great experiences. This healthcare provider is simply the best."</p>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- enrol Section -->
+        <section class="enrol section  trans opacity-anim scale">
+            <div class="enrol-cont">
+                <h2 class="enrol-title">Enroll For Our Courses Now</h2>
+                <h4>Special Offer</h4>
+                <p class="para-enroll">Save 50% On All Courses On Your First Order</p>
+                <p class="para-enroll">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi nesciunt officia cupiditate quam eveniet repellat expedita tenetur consequuntur, facere, laborum iste voluptatem? Eius provident, dolorem maiores nesciunt atque sint inventore? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil, facilis?</p>
+                <div class="btn-wrap flex gap js-cnt">
+                    <button class="btn">Enroll</button>
+                    <button class="btn">Contact</button>
+                </div>
+            </div>
+        </section>
+
+        <!-- News And Events Section -->
+        <section class="pos-rel events linked" id="events">
+            <div class="traingle-4 pos-abs traingle"></div>
+            <h4 class="section-title pos-rel hor-cnt">What's Happening<span>?</span></h4>
+            <div class="events-cont grid grid-many section gap">
+                <div class="eventCard brr ov-hd trans opacity-anim anim-hor-2">
+                    <div class="img-event-cont ov-hd">
+                        <img src="./images/events.jpg" alt="" class="img-events trans">
+                    </div>
+                    <div class="events-text flex">
+                        <div class="events-details flex al-cnt js-cnt fl-cl ov-hd">
+                            <p>01</p>
+                            <h3>Jan</h3>
+                            <p>2023</p>
+                        </div>
+                        <div class="event-text">
+                            <div class="posst-details flex gap">
+                                <h3>Web Design</h3>
+                                <h3>Admin</h3>
+                            </div>
+                            <div class="post">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam voluptas ex est. Ullam, voluptas quidem? Labore rem, unde perspiciatis obcaecati veniam assumenda quia iure illo illum exercitationem, tempora sapiente.</p>
+                                <div class="report-post gap flex">
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-eye icon-test"></i>
+                                        <span>100k</span>
+                                    </div>
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-comment icon-test"></i>
+                                        <span>200k</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventCard brr ov-hd trans opacity-anim anim-hor">
+                    <div class="img-event-cont ov-hd">
+                        <img src="./images/events1.jpg" alt="" class="img-events trans">
+                    </div>
+                    <div class="events-text flex">
+                        <div class="events-details flex al-cnt js-cnt fl-cl ov-hd">
+                            <p>01</p>
+                            <h3>Jan</h3>
+                            <p>2023</p>
+                        </div>
+                        <div class="event-text">
+                            <div class="posst-details flex gap">
+                                <h3>Web Design</h3>
+                                <h3>Admin</h3>
+                            </div>
+                            <div class="post">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam voluptas ex est. Ullam, voluptas quidem? Labore rem, unde perspiciatis obcaecati veniam assumenda quia iure illo illum exercitationem, tempora sapiente.</p>
+                                <div class="report-post gap flex">
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-eye icon-test"></i>
+                                        <span>100k</span>
+                                    </div>
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-comment icon-test"></i>
+                                        <span>200k</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventCard brr ov-hd trans opacity-anim anim-hor-2">
+                    <div class="img-event-cont ov-hd">
+                        <img src="./images/events2.jpg" alt="" class="img-events trans">
+                    </div>
+                    <div class="events-text flex">
+                        <div class="events-details flex al-cnt js-cnt fl-cl ov-hd">
+                            <p>01</p>
+                            <h3>Jan</h3>
+                            <p>2023</p>
+                        </div>
+                        <div class="event-text">
+                            <div class="posst-details flex gap">
+                                <h3>Web Design</h3>
+                                <h3>Admin</h3>
+                            </div>
+                            <div class="post">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam voluptas ex est. Ullam, voluptas quidem? Labore rem, unde perspiciatis obcaecati veniam assumenda quia iure illo illum exercitationem, tempora sapiente.</p>
+                                <div class="report-post gap flex">
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-eye icon-test"></i>
+                                        <span>100k</span>
+                                    </div>
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-comment icon-test"></i>
+                                        <span>200k</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="eventCard brr ov-hd trans opacity-anim anim-hor">
+                    <div class="img-event-cont ov-hd">
+                        <img src="./images/events3.jpg" alt="" class="img-events trans">
+                    </div>
+                    <div class="events-text flex">
+                        <div class="events-details flex al-cnt js-cnt fl-cl ov-hd">
+                            <p>01</p>
+                            <h3>Jan</h3>
+                            <p>2023</p>
+                        </div>
+                        <div class="event-text">
+                            <div class="posst-details flex gap">
+                                <h3>Web Design</h3>
+                                <h3>Admin</h3>
+                            </div>
+                            <div class="post">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate nam voluptas ex est. Ullam, voluptas quidem? Labore rem, unde perspiciatis obcaecati veniam assumenda quia iure illo illum exercitationem, tempora sapiente.</p>
+                                <div class="report-post gap flex">
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-eye icon-test"></i>
+                                        <span>100k</span>
+                                    </div>
+                                    <div class="report flex al-cnt">
+                                        <i class="fas fa-comment icon-test"></i>
+                                        <span>200k</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="contact pos-rel section linked" id="contact">            
+            <div class="traingle-5 pos-abs traingle"></div>
+            <h4 class="section-title pos-rel hor-cnt">Reach Out to Us<span>?</span></h4>
+            <div class="contact-cont grid grid-two al-cnt">
+                <div class="form-cont">
+                    <form action="" class="trans opacity-anim anim-hor-2">
+                        <input type="text" name="" id="" placeholder="Full Name" class="inp brr">
+                        <input type="email" name="" id="" placeholder="Email" class="inp brr">
+                        <input type="tel" name="" id="" placeholder="Tel No." class="inp brr">
+                        <div class="category-cont-form">
+                            <label for="category" class="cat-title">Select Category</label>
+                            <select name="category" id="" class="inp brr">
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="Healthcare">Healthcare</option>
+                                <option value="Healthcare">Healthcare</option>
+                            </select>
+                        </div>
+                        <textarea name="" id="" cols="30" rows="10" class="inp brr" placeholder="Type here..."></textarea>
+                        <button class="btn">Submit</button>
+                    </form>
+                </div>
+                <div class="img-form-cont grid-start">
+                    <img src="./images/contact.png" alt="" class="img-form img-side trans opacity-anim anim-hor">
+                </div>
+            </div>
+        </section>
+        <sction class="newsletter section full-width flex js-cnt trans opacity-anim scale">
+            <div class="news-cont brr">
+                <h2 class="enrol-title">Subscribe to Our Newsletter</h2>
+                <form action="">
+                    <input type="email" class="inp brr" placeholder="Type Email">
+                    <button class="btn">Submit</button>
+                </form>
+            </div>
+        </sction>
+
+    </main>
+
+    <footer class="footer">
+        <div class="footer-cont grid grid-many section">
+            <ul class="footNav trans opacity-anim anim-var">
+                <h3 class="footNav-title">Quick Links</h3>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Testimonials</a></li>
+                <li><a href="#">Events</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <ul class="footNav trans opacity-anim anim-var">
+                <h3 class="footNav-title">Popular Links</h3>
+                <li><a href="#">History</a></li>
+                <li><a href="#">Mission</a></li>
+                <li><a href="#">Vision</a></li>
+                <li><a href="#">Acheievements</a></li>
+            </ul>
+            <ul class="footNav trans opacity-anim anim-var">
+                <h3 class="footNav-title">Get In Touch</h3>
+                <li><a href="#" type="tel">+234-567-890</a></li>
+                <li><a href="#">No. 123 New Orleans, New York</a></li>
+                <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+                tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim ven</a></li>
+            </ul>
+            <ul class="footNav trans opacity-anim anim-var">
+                <h3 class="footNav-title">Social Links</h3>
+                <li class="footSocailLinks"><a href="#"><span class="fIcon fIcon-1"><i class="fab fa-facebook"></i></span>Facebook</a></li>
+                <li class="footSocailLinks"><a href="#"><span class="fIcon fIcon-2"><i class="fab fa-twitter"></i></span>Twitter</a></li>
+                <li class="footSocailLinks"><a href="#"><span class="fIcon fIcon-3"><i class="fab fa-instagram"></i></span>Instagram</a></li>
+                <li class="footSocailLinks"><a href="#"><span class="fIcon fIcon-4"><i class="fab fa-youtube"></i></span>You-Tube</a></li>
+            </ul>
+        </div>
+        <div class="bottom-foot">
+            <h3 class="footBottom">
+                copyright <a href="#">ICECODE</a> <span class="dateYear">2023</span>
+            </h3>
+        </div>
+    </footer>
+
+    <!-- Script Tags Area -->
+    <script src="./js/app.js"></script>
+    <script src="./js/anim.js"></script>
+</body>
+</html>
